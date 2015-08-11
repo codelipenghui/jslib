@@ -1,0 +1,216 @@
+.x-form-readonly{
+    color: black;
+}
+.x-form-readonly input{
+    color: gray;
+}
+.x-form-readonly textarea{
+    color: gray;
+}
+.x-grid-row .x-grid-cell{
+    font-size: 12px;
+}
+.ext-grid-icon-cls{
+    height: 26px;
+}
+.x-btn-default-toolbar-small .x-btn-inner{
+    font-size: 12px;
+}
+.x-btn-default-small .x-btn-inner{
+    font-size: 12px;
+}
+.x-column-header{
+    font-size: 12px;
+}
+.x-column-header-inner{
+    line-height: 18px;
+}
+.x-menu-item-text{
+    font-size: 12px;
+}
+.x-panel-header-text-default{
+    font-size: 15px;
+    line-height: 28px;
+}
+.x-panel-header-text-default-framed{
+    font-size: 15px;
+    line-height: 28px;
+}
+.x-tab-inner{
+    font-size: 12px;
+}
+.x-window-header-default{
+    font-size: 15px;
+}
+.x-window-header-text-default{
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.x-toolbar .x-toolbar-text {
+    font-size: 12px;
+}
+.x-fieldset-header {
+    font-size: 12px;
+}
+.x-toolbar {
+    font-size: 12px;
+}
+.x-grid-row .x-grid-cell-special{
+    background-color: transparent;
+    background-image: none;
+}
+.x-grid-row-selected .x-grid-cell, .x-grid-row-selected .x-grid-rowwrap-div{
+    border-style: solid;
+    border-color: #ffffff;
+}
+.x-form-field, .x-form-display-field{
+    font: normal 12px tahoma,arial,verdana,sans-serif;
+}
+.x-form-readonly {
+    color: #ffffff;
+}
+.x-boundlist-item{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+
+.x-grid-header-ct {
+     border: 1px solid #f5f5f5;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-color: #f5f5f5;
+}
+
+.x-window-header-title-default>.x-title-text-default:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #9bc5e4;
+}
+
+.x-toolbar-footer {
+    padding: 6px 0 6px 6px;
+    background-color: #f5f5f5;
+}
+
+.x-btn-icon-el-default-toolbar-small.x-btn-glyph {
+    font-size: 16px;
+    line-height: 16px;
+    color: #2dc3e8;
+    opacity: .5;
+}
+
+.x-column-header {
+    border-right: 1px solid  #f5f5f5;
+    color: #555;
+    font: 300 13px/15px helvetica,arial,verdana,sans-serif;
+    outline: 0;
+    background-color: white;
+}
+
+.x-form-item-label-default {
+    color: #555;
+    font: 300 13px/17px helvetica,arial,verdana,sans-serif;
+    min-height: 24px;
+    padding-top: 4px;
+    padding-right: 5px;
+}
+.x-panel-header-default {
+    background-image: none;
+    /*background-color: #f3f5f9;*/
+    background-color: white;
+    border-bottom: 1px solid  #f5f5f5;
+}
+
+.x-grid-with-row-lines .x-grid-item {
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #f5f5f5;
+}
+.x-grid-cell-special {
+    border-color: #cecece;
+    border-style: solid;
+    border-right-width: 0px;
+}
+body {
+    color: #555;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+    font-family: 'Open Sans','Segoe UI';
+    background: white;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    -webkit-border-radius: 0!important;
+    -webkit-background-clip: padding-box!important;
+    -moz-border-radius: 0!important;
+    -moz-background-clip: padding!important;
+    border-radius: 0!important;
+    background-clip: padding-box!important;
+    color: #858585;
+    background-color: #fbfbfb;
+    border: 0px solid #d5d5d5;
+    font-family: inherit;
+    -webkit-transition: -webkit-box-shadow .45s,border-color .45s ease-in-out;
+    -moz-transition: -moz-box-shadow .45s,border-color .45s ease-in-out;
+    -o-transition: box-shadow .45s,border-color .45s ease-in-out;
+    transition: box-shadow .45s,border-color .45s ease-in-out;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.x-grid-item {
+    color: #555;
+    font: 300 13px/15px helvetica,arial,verdana,sans-serif;
+    background-color: white;
+}
+
+.x-grid-item-selected {
+    background-color: #2dc3e8;
+    color: white;
+}
+
+
+
+.x-grid-item-focused {
+    outline: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.page-sidebar .sidebar-menu a {
+    display: block;
+    height: 38px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 16px 0 7px;
+    -webkit-text-shadow: none!important;
+    text-shadow: none!important;
+    font-size: 13px;
+    text-decoration: none;
+    color: #737373;
+    z-index: 123;
+}
+
+.x-form-text-default {
+    color: #737373;
+    padding: 4px 6px 3px 6px;
+    background-color: white;
+    font: 300 13px/15px helvetica,arial,verdana,sans-serif;
+    min-height: 22px;
+}
